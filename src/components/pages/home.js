@@ -1,11 +1,11 @@
 import styles from "./home.module.css";
 import Button from "../layout/button";
+import Header from "../layout/header.js";
 
 function home() {
   return (
-    <div className={styles.home}>
-      <div>home</div>
-      <Button text="página de home" />
+    <div>
+      <Header></Header>
     </div>
   );
 }
