@@ -1,4 +1,4 @@
-import styles from "./layout/footer.module.css";
+import styles from "../list/list.module.css";
 function list(props) {
   let listItems = props.items.map((items, index) => (
     <li key={index}>{items}</li>

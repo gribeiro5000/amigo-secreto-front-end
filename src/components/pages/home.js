@@ -1,6 +1,5 @@
 import Header from "../layout/header.js";
 import Footer from "../layout/footer.js";
-import styles from "../layout/footer.js";
 import {Link} from "react-router-dom";
 
 function home() {

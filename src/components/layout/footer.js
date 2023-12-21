@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import styles from "./footer.module.css";
-import List from "../list";
+import List from "../list/list";
 
 function Footer(props) {
   return (
