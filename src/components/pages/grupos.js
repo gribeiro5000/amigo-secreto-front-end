@@ -1,5 +1,5 @@
-import styles from "./grupos.module.css";
-import Button from "../layout/button.js";
+// import styles from "./grupos.module.css";
+// import Button from "../layout/button.js";
 import Header from "../layout/header.js";
 
 function grupos() {

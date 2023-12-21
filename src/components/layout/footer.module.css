@@ -1,0 +1,36 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(145, 141, 141);
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.linkFooter{
+  padding: 5px;
+  border-radius: 0;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size:large;
+
+  transition-property: background-color;
+  transition-duration: 10ms;
+  
+}
+
+.linkFooter:hover{
+    background-color: rgb(211, 6, 6);
+    /* transform: translateY(-5px); */
+}
+
+.listaFoot{
+    display: flex;
+    flex-direction: column;
+}
+
+.listaFoot li{
+    padding: 5px;
+}

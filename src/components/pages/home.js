@@ -1,11 +1,11 @@
-import styles from "./home.module.css";
-import Button from "../layout/button";
 import Header from "../layout/header.js";
+import Footer from "../layout/footer.js";
 
 function home() {
   return (
     <div>
       <Header></Header>
+      <Footer></Footer>
     </div>
   );
 }
