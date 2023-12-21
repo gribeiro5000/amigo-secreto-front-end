@@ -1,35 +1,15 @@
 import {Link} from "react-router-dom";
 import styles from "./footer.module.css";
+import List from "../list";
 
-function Footer() {
+function Footer(props) {
   return (
     <footer>
-      <div>
-        <p>©2023 Amigo Secreto. Todos os direitos reservados.</p>
-        <p>
-          Desenvolvido por
-          <Link
-            to="https://github.com/gribeiro5000"
-            className={styles.linkFooter}>
-            Gabriel Ribeiro
-          </Link>
-          e
-          <Link to="https://github.com/NMD01" className={styles.linkFooter}>
-            Nathan Martini
-          </Link>
-        </p>
-      </div>
+      <List items={props.listaInicio}></List>
 
-      <ul className={styles.listaFoot}>
-        <li>Amigo Secreto</li>
-        <li>Política de Privacidade</li>
-        <li>Termos de Serviço</li>
-      </ul>
+      <List items={props.listaMeio}></List>
 
-      <ul className={styles.listaFoot}>
-        <li>Contato: contato@seudominio.com</li>
-        <li>Siga-nos nas redes sociais: [Links para redes sociais]</li>
-      </ul>
+      <List items={props.listaFim}></List>
     </footer>
   );
 }

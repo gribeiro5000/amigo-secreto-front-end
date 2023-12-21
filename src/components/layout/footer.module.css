@@ -8,23 +8,24 @@ footer{
     color: white;
 }
 
-.linkFooter{
-  padding: 5px;
-  border-radius: 0;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  font-size:large;
 
-  transition-property: background-color;
-  transition-duration: 10ms;
+.linkFooter {
+    padding: 5px;
+    border-radius: 0;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
   
-}
-
-.linkFooter:hover{
-    background-color: rgb(211, 6, 6);
-    /* transform: translateY(-5px); */
-}
+    transition: all ease-in-out 300ms;
+  }
+  
+  .linkFooter:hover {
+    background-color: rgb(145, 141, 141);
+    color: rgb(218, 234, 248);
+    transform: translateY(-3px);
+  }
 
 .listaFoot{
     display: flex;
