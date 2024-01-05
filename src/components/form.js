@@ -1,16 +1,11 @@
 import Input from "./input.js";
 
-function Form({items}) {
-  const inputList = items.map((item, index) => {
-    <Input
-      text={item.text}
-      placeholder={item.placeholder}
-      id={item.id}
-      type={item.type}
-    />;
-  });
-
-  return <form>{inputList}</form>;
+function Form(props) {
+  return (
+    <div>
+      <Input inputs={props.inputs} />
+    </div>
+  );
 }
 
 export default Form;

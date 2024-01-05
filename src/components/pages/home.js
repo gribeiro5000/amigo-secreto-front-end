@@ -3,28 +3,15 @@ import Form from "../form.js";
 
 function Home() {
   return (
-    <Form
-      items={[
-        {
-          text: "nome teste",
-          placeholder: "digite aqui",
-          id: "teste",
-          type: "text",
-        },
-        {
-          text: "nome teste",
-          placeholder: "digite aqui",
-          id: "teste",
-          type: "text",
-        },
-        {
-          text: "nome teste",
-          placeholder: "digite aqui",
-          id: "teste",
-          type: "text",
-        },
-      ]}
-    />
+    <div>
+      <Form
+        inputs={[
+          {titulo: "teste", placeholder: "teste"},
+          {titulo: "teste2", placeholder: "teste2"},
+          {titulo: "teste3", placeholder: "teste3"},
+        ]}
+      />
+    </div>
   );
 }
 

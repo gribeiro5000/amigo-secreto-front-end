@@ -1,12 +1,14 @@
 import styles from "./input.module.css";
 
-function Input({key, text, placeholder, id, type}) {
-  return (
-    <div className={styles.input_container}>
-      <label>{text}</label>
-      <input type={type} id={id} placeholder={placeholder} />
+function Input(props) {
+  let listInput = props.inputs.map((input, index) => (
+    <div key={index} className={styles.input_container}>
+      <label>{input.titulo}</label>
+      <input placeholder={input.placeholder} />
     </div>
-  );
+  ));
+
+  return <div>{listInput}</div>;
 }
 
 export default Input;
