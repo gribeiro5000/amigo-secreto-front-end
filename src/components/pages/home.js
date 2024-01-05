@@ -3,28 +3,30 @@ import Form from "../form.js";
 
 function Home() {
   return (
-    <Form
-      items={[
-        {
-          text: "nome teste",
-          placeholder: "digite aqui",
-          id: "teste",
-          type: "text",
-        },
-        {
-          text: "nome teste",
-          placeholder: "digite aqui",
-          id: "teste",
-          type: "text",
-        },
-        {
-          text: "nome teste",
-          placeholder: "digite aqui",
-          id: "teste",
-          type: "text",
-        },
-      ]}
-    />
+    <div>
+      <Form
+        items={[
+          {
+            text: "nathan",
+            placeholder: "digite aqui",
+            id: 1,
+            type: "text",
+          },
+          {
+            text: "Gabriel",
+            placeholder: "digite aqui",
+            id: 2,
+            type: "text",
+          },
+          {
+            text: "teste3",
+            placeholder: "digite aqui",
+            id: 3,
+            type: "text",
+          },
+        ]}
+      />
+    </div>
   );
 }
 
