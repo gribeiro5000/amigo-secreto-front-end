@@ -1,4 +1,3 @@
-import Input from "../input.js";
 import Form from "../form.js";
 
 function Home() {
@@ -7,24 +6,29 @@ function Home() {
       <Form
         items={[
           {
-            text: "nathan",
-            placeholder: "digite aqui",
-            id: 1,
+            element: "h1",
+            text: "Login",
+          },
+          {
+            element: "input",
+            text: "Digite seu E-mail",
+            placeholder: "E-mail",
+            id: "email",
             type: "text",
           },
           {
-            text: "Gabriel",
-            placeholder: "digite aqui",
-            id: 2,
+            element: "input",
+            text: "Digite sua Senha",
+            placeholder: "Senha",
+            id: "senha",
             type: "text",
           },
           {
-            text: "teste3",
-            placeholder: "digite aqui",
-            id: 3,
-            type: "text",
+            element: "submit",
+            value: "Entrar",
           },
         ]}
+        buttonItems={{value: "Enviar"}}
       />
     </div>
   );
