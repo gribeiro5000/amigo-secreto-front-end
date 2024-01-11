@@ -1,0 +1,19 @@
+.criarGrupoForm {
+  width: 300px;
+  max-width: 300px;
+}
+
+.criarGrupoForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.criarGrupoForm h1 {
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 400;
+  color: #434343;
+}
