@@ -6,7 +6,7 @@ function Vector(props) {
       <svg
         className={styles.vector}
         xmlns="http://www.w3.org/2000/svg"
-        width="102%"
+        width="100%"
         viewBox="0 0 1919 1029"
         fill="none">
         <path
