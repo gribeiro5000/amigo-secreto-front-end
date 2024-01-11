@@ -1,7 +1,9 @@
-function CheckBox({type, id, name, value, text}) {
+import styles from "./checkBoxInput.module.css";
+
+function CheckBox({id, name, value, text}) {
   return (
-    <div>
-      <input type={type} id={id} name={name} value={value} />
+    <div className={styles.checkboxInput}>
+      <input type="checkbox" id={id} name={name} value={value} />
       <label for={id}>{text}</label>
     </div>
   );

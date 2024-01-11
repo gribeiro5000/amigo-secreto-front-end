@@ -1,0 +1,9 @@
+.checkboxInput label {
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.checkboxInput input[type='checkbox'] {
+    accent-color: #F8C668;
+    color: white;
+}
