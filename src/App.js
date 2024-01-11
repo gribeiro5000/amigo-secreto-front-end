@@ -21,7 +21,7 @@ function App() {
     <BrowserRouter>
       <Header
         listaInicio={[
-          <img src={logo} width="90px" alt="Logo do site - amigo secreto" />,
+          <img src={logo} width="85px" alt="Logo do site - amigo secreto" />,
         ]}
         listaMeio={["Criar Grupos", "Meus Grupos"]}
         listaFim={[

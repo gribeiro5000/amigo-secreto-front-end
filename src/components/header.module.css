@@ -1,12 +1,24 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 10px 0 0 15px;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    color: #434343;
+    font-size: 22px;
+    margin: 10px 30px 15px 30px;
+
 }
 
 .flexList{
     display: flex;
-    color: red;
+    flex-direction: row;
+    list-style: none;
+}
+
+.flexList li{
+    margin: 0 10px 0 10px;
 }
 
 

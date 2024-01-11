@@ -7,7 +7,7 @@ function List(props) {
     </li>
   ));
 
-  return <ul className={styles.ul}>{listItems}</ul>;
+  return <ul className={(styles.ul, props.className)}>{listItems}</ul>;
 }
 
 export default List;
