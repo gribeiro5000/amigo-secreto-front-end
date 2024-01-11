@@ -1,0 +1,19 @@
+.loginForm {
+  width: 300px;
+  max-width: 300px;
+}
+
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.loginForm h1 {
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 400;
+  color: #434343;
+}
