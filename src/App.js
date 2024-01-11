@@ -12,17 +12,20 @@ import MinhaConta from "./components/pages/minhaConta.js";
 import RecuperarSenha from "./components/pages/recuperarSenha.js";
 import Footer from "./components/footer.js";
 import Header from "./components/header.js";
+import Vector from "./components/vector.js";
+import logo from "./img/logo.png";
+import bonecoAmarelo from "./img/boneco-amarelo.png";
 
 function App() {
   return (
     <BrowserRouter>
       <Header
         listaInicio={[
-          <img src="./img/logo.png" alt="Logo do site - amigo secreto" />,
+          <img src={logo} width="90px" alt="Logo do site - amigo secreto" />,
         ]}
         listaMeio={["Criar Grupos", "Meus Grupos"]}
         listaFim={[
-          <img src="./img/boneco-amarelo.png" alt="boneco amarelo - menu" />,
+          <img src={bonecoAmarelo} width="90px" alt="boneco amarelo - menu" />,
         ]}></Header>
 
       <Routes>
@@ -37,18 +40,8 @@ function App() {
         <Route path="ListaDeDesejos" element={<ListaDeDesejos />} />
       </Routes>
 
-      <div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          viewBox="0 0 1919 1029"
-          fill="none">
-          <path
-            d="M1917.75 0.154297C1797.88 1340.72 -2.797 972.269 -2.797 972.269L-2.23294 1012.66L1922.21 1033.31L1917.75 0.154297Z"
-            fill="#FFC446"
-          />
-        </svg>
-
+      <div className="containerFooter">
+        <Vector></Vector>
         <Footer
           listaInicio={[
             "©2023 Amigo Secreto. Todos os direitos reservados.",

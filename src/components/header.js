@@ -5,7 +5,7 @@ function Header(props) {
   return (
     <header className={styles.header}>
       <List items={props.listaInicio}></List>
-      <List items={props.listaMeio}></List>
+      <List items={props.listaMeio} className={styles.flexList}></List>
       <List items={props.listaFim}></List>
     </header>
   );
