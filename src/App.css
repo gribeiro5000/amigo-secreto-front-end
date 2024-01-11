@@ -1,4 +1,7 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -29,7 +32,7 @@ body {
 }
 
 .App-link {
-  color: #61dafb;
+  color: hsl(193, 95%, 68%);
 }
 
 @keyframes App-logo-spin {
@@ -40,3 +43,10 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.containerFooter{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
