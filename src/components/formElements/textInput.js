@@ -1,10 +1,15 @@
 import styles from "./textInput.module.css";
 
-function Input({text, placeholder, id}) {
+function Input({text, placeholder, id, onChange}) {
   return (
     <div className={styles.input_container}>
       <label>{text}</label>
-      <input type="text" id={id} placeholder={placeholder} />
+      <input
+        onChange={onChange}
+        type="text"
+        id={id}
+        placeholder={placeholder}
+      />
     </div>
   );
 }
